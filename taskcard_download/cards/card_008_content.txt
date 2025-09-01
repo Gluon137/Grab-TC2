@@ -1,7 +1,9 @@
-Title: 
+Title: Arbeitsergebnis zGruppe 3
 
-Description: 
+Description: 2023_1121_Unterrichtsrichtlinien_KI_DB_GE.docx
+28 KB
 
 Images:
 
 Files:
+  - 2023_1121_Unterrichtsrichtlinien_KI_DB_GE.docx: 

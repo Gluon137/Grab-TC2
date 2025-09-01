@@ -1,7 +1,10 @@
-Title: 
+Title: Schulentwicklungsgespräche
 
-Description: 
+Description: PDF • 263 KB Feedbackkarte.pdf
+PDF • 669 KB Werbekarte Schulentwicklungsgespräche.pdf
 
 Images:
 
 Files:
+  - Feedbackkarte.pdf: 
+  - Werbekarte Schulentwicklungsgespräche.pdf: 

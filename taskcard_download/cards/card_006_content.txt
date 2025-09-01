@@ -1,7 +1,8 @@
-Title: 
+Title: PPT Tagung Gesamtschulen
 
-Description: 
+Description: PDF • 2.6 MB Präsentation-DB_GE 2023.pdf
 
 Images:
 
 Files:
+  - Präsentation-DB_GE 2023.pdf: 

@@ -1,8 +1,19 @@
 {
   "id": 4,
-  "title": "",
-  "description": "",
+  "title": "Zeiten und Tagungsstruktur",
+  "description": "PDF • 433 KB Tagungsstruktur_DB_final_Teilnehmende.pdf",
   "images": [],
-  "files": [],
+  "files": [
+    {
+      "url": "",
+      "text": "Tagungsstruktur_DB_final_Teilnehmende.pdf",
+      "type": "taskcard_pdf_container"
+    },
+    {
+      "url": "",
+      "text": "Tagungsstruktur_DB_final_Teilnehmende.pdf",
+      "type": "taskcard_pdf_container"
+    }
+  ],
   "html_content": "<!----><input data-v-7bbf906c=\"\" type=\"file\" multiple=\"multiple\" style=\"display: none;\"><div data-v-7bbf906c=\"\" tabindex=\"-1\" class=\"overflow-auto\"><div data-v-d2898a86=\"\" data-v-7bbf906c=\"\"><div data-v-d2898a86=\"\" class=\"row no-wrap\"><!----></div><!----></div><div data-v-7bbf906c=\"\"><!----></div><!----><div data-v-7bbf906c=\"\" class=\"board-card-header \"><div data-v-7bbf906c=\"\"><!----><div data-v-2bfa554b=\"\" data-v-7bbf906c=\"\"><!----><div data-v-2bfa554b=\"\" contenteditable=\"true\" placeholder=\"\" spellcheck=\"false\" class=\"contenteditable\">Zeiten und Tagungsstruktur</div></div></div><div data-v-7bbf906c=\"\" class=\"disabled-focus\"><button data-v-7bbf906c=\"\" tabindex=\"0\" type=\"button\" role=\"button\" class=\"q-btn q-btn-item non-selectable no-outline dragDropCard q-btn--flat q-btn--round text-grey q-btn--actionable q-focusable q-hoverable q-btn--wrap\" style=\"font-size: 10px; touch-action: none;\"><span class=\"q-focus-helper\"></span><span class=\"q-btn__wrapper col row q-anchor--skip\"><span class=\"q-btn__content text-center col items-center q-anchor--skip justify-center row\"><i aria-hidden=\"true\" role=\"img\" class=\"mdi mdi-arrow-all q-icon notranslate\"> </i></span></span></button></div></div><div data-v-7bbf906c=\"\" class=\"board-card-content\"><!----><!----><!----><!----><!----><div data-v-6823d42c=\"\" data-v-7bbf906c=\"\" tabindex=\"-1\" class=\"q-mt-sm self-focus\"><div data-v-78669495=\"\" data-v-6823d42c=\"\"><div data-v-fd67bcc4=\"\" data-v-78669495=\"\" class=\"q-my-sm border cursor-pointer\"><div data-v-fd67bcc4=\"\" role=\"img\" aria-label=\"Tagungsstruktur_DB_final_Teilnehmende.pdf\" class=\"q-img overflow-hidden\" style=\"border-radius: 1em 1em 0px 0px;\"><div style=\"padding-bottom: 50%;\"></div><div class=\"q-img__image absolute-full\" style=\"background-size: cover; background-position: 50% 50%; background-image: url(&quot;https://taskcards.s3.hidrive.strato.com/attachments/36c2fb63-2188-4a2d-b919-768771813657?response-content-disposition=attachment%3B%20filename%3DTagungsstruktur_DB_final_Teilnehmende.pdf&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AHS49RUS6XLXF0S0CNIF%2F20250831%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250831T115543Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2874865ee24a9f133b02cc32f5d949a58a36ec7510aa85306b34b1fb5fdac581&quot;);\"></div><div class=\"q-img__content absolute-full\"></div></div><div data-v-fd67bcc4=\"\" class=\"full-width text-caption bg-grey-4 text-grey-8 \" style=\"border-radius: 0px 0px 1em 1em; padding: 0.5rem 1em !important; line-height: 1 !important;\"><div data-v-fd67bcc4=\"\" style=\"width: inherit;\"><span data-v-fd67bcc4=\"\" class=\"inline-block ellipsis\" style=\"width: inherit;\">PDF • 433 KB </span><span data-v-fd67bcc4=\"\" class=\"inline-block ellipsis\" style=\"width: inherit; padding-top: 0.25em;\"><b data-v-fd67bcc4=\"\">Tagungsstruktur_DB_final_Teilnehmende.pdf</b></span></div></div></div></div></div><!----><div data-v-7bbf906c=\"\" tabindex=\"-1\" class=\"self-focus full-width\"></div></div></div><!---->"
 }

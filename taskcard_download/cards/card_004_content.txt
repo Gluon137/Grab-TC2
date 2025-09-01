@@ -1,7 +1,9 @@
-Title: 
+Title: Zeiten und Tagungsstruktur
 
-Description: 
+Description: PDF • 433 KB Tagungsstruktur_DB_final_Teilnehmende.pdf
 
 Images:
 
 Files:
+  - Tagungsstruktur_DB_final_Teilnehmende.pdf: 
+  - Tagungsstruktur_DB_final_Teilnehmende.pdf: 

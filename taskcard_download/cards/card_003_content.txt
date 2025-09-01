@@ -1,7 +1,12 @@
-Title: 
+Title: Buchungsformular und Kontakt
 
-Description: 
+Description: DSGVO-Informationsblatt für Gäste.pdf
+231 KB
+Zimmereservierung BZR Arnsberg.pdf
+620 KB
 
 Images:
 
 Files:
+  - DSGVO-Informationsblatt für Gäste.pdf: 
+  - Zimmereservierung BZR Arnsberg.pdf: 

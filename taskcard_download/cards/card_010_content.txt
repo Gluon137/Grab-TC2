@@ -1,4 +1,4 @@
-Title: 
+Title: Beurteilungsrichtlinien, Maßstabskonferenz
 
 Description: BASS 2025/2026 - 21-02 Nr. 2 Richtlinien für die dienstliche Beurteilung der Lehrerinnen und Lehrer sowie der Leiterinnen und Leiter an öffentlichen Schulen und Zentren für schulpraktische Lehrerausbildung des für Schule zuständigen Ministeriums https://bass.schul-welt.de/17424.htm
 
@@ -8,3 +8,5 @@ Images:
 Files:
   - BASS 2025/2026 - 21-02 Nr. 2 Richtlinien für die dienstliche Beurteilung der Lehrerinnen und Lehrer sowie der Leiterinnen und Leiter an öffentlichen Schulen und Zentren für schulpraktische Lehrerausbildung des für Schule zuständigen Ministeriums
 https://bass.schul-welt.de/17424.htm: https://bass.schul-welt.de/17424.htm
+  - faq_beurteilungsrichtlinien_ab_20180101.pdf: 
+  - faq_beurteilungsrichtlinien_ab_20180101.pdf: 

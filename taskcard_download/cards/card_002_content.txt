@@ -1,7 +1,12 @@
-Title: 
+Title: Einladung
 
-Description: 
+Description: PDF • 256 KB REINSCHRIFT Einladung SL-DB GE 23-11.pdf
+PDF • 256 KB REINSCHRIFT Einladung SL-DB SK 23-11.pdf
 
 Images:
 
 Files:
+  - REINSCHRIFT Einladung SL-DB GE 23-11.pdf: 
+  - REINSCHRIFT Einladung SL-DB GE 23-11.pdf: 
+  - REINSCHRIFT Einladung SL-DB SK 23-11.pdf: 
+  - REINSCHRIFT Einladung SL-DB SK 23-11.pdf: 

@@ -1,7 +1,8 @@
-Title: 
+Title: Gemeinsames Lernen
 
-Description: 
+Description: s. PP-Präsentation
 
 Images:
 
 Files:
+  - Gemeinsames Lernen-Ressource Dez. 44.pdf: 

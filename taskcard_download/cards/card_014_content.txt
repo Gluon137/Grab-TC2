@@ -1,7 +1,9 @@
-Title: 
+Title: Informationen und Mitteilungen aus dem MSB
 
-Description: 
+Description: Informationen aus dem MSB.docx
+12 KB
 
 Images:
 
 Files:
+  - Informationen aus dem MSB.docx: 

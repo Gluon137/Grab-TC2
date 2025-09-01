@@ -1,6 +1,9 @@
-Title: 
+Title: Tagungsort
 
-Description: 
+Description: Sport-Centrum Kaiserau (FLVW)
+Jakob-Koenen-Str. 2
+59174 Kamen
+Tel.: 02307 371240
 
 Images:
 
