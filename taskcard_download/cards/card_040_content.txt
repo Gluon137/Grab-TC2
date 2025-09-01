@@ -1,0 +1,8 @@
+Title: 
+
+Description: Zusätzlich zum Handlungsleitfaden hat die QUA-LiS NRW ein Vertiefungsangebot in Form eines Moodle-Kurses erstellt. Dieser bietet die Möglichkeit, sich intensiver mit textgenerierenden KI-Anwendungen auseinanderzusetzen. Neben weiterführenden Informationen und Verweisen – z. B. auf unterschiedliche KI-Anwendungen – beinhaltet der Moodle-Kurs zudem Unterrichtsbeispiele für verschiedenen Fächer und Schulstufen, welche Lehrkräfte, aber auch Seminarausbilderinnen und Seminarausbilder bei der Thematisierung von textbasierter KI im Unterricht unterstützen sollen. Der Moodle-Kurs ist frei zugänglich, es ist keine Registrierung notwendig.
+
+Images:
+
+Files:
+  - Moodle-Kurses: https://url.nrw/textgenerierendeKI

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <script>
+        window.__INITIAL_DATA__ = {
+            "ROOTURL": "",
+            "torga_ID" : "1",
+                                "kqID": "20532",
+                                        "br": "bra",
+                                "veroeffentlich" : "1",
+                };
+    </script>
+        <link rel="stylesheet" href="https://lfb.nrw.de/css/katalog/bootstrap.min.css?v=20250830002007" integrity="sha256-YJui2eQybGFRt5GAiSeeoL1lJrwHja5rTv1JRkjpmc0=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://lfb.nrw.de/css/katalog/katalog.css?v=20250830002007" integrity="sha256-93y2OcOgpvq8M/MTrKzjGglfJ/bLn5z6KlfvfjL0xEo=" crossorigin="anonymous">
+    <script src="https://lfb.nrw.de/js/alle.js?v=20250830002007" integrity="sha256-AUw7dQLHUxSf/uYLsEirM5A9NbuZNCiD3FHJB851bsw=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/edi.js?v=20250830002007" integrity="sha256-b5QKBv3QD7ZfklWx8CN9GhkxRIkhUVWj59lDzX7CYcs=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/event-orderer.js?v=20250830002007" integrity="sha256-Igs7OMVIj7JHbs13SsRFclgwZr+G9k2dQAfxrk6cht0=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/event-reducer.js?v=20250830002007" integrity="sha256-mV5V7mk4oWNz6gv7xBFgF0278Fw7b3HnMNW5puGRG6Q=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Model.js?v=20250830002007" integrity="sha256-oVlKuksHZdh/JzTLQ3sPL9pSDxbtuVWKAkLZiq0+1T0=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/View.js?v=20250830002007" integrity="sha256-T8xy/EC4Z2iyVlIco5lnwaf5nguuV7WTKG3KJSI08zk=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/termin/libs/getDirectAnmeldeLink.js?v=20250830002007" integrity="sha256-H1yjWpO/jp7V85G5MSmBSa01cuemwTAIIjLVu3gkirk=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/CollectionView.js?v=20250830002007" integrity="sha256-i1gh+kofze8G0Hqjmx4PHYVlNkkBBezRP7EVUfwuoU0=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/AngebotList.js?v=20250830002007" integrity="sha256-Mfm7tVYz/O5V/O7e+7N3292CreVqeSMRkYyt171yDOg=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/AngebotShow.js?v=20250830002007" integrity="sha256-aCakflngaAl4t3qxNaXKoaaOH/Q50CqE97pC2/K18Iw=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/BereichList.js?v=20250830002007" integrity="sha256-StR7a1LS/pOB0koEuHqdixdMlK4+fioBoalzWu1DgWI=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/BereichShow.js?v=20250830002007" integrity="sha256-DN1eTqiuYcW+mkyADjXAMdN5CTbxuwks/vVkSEUiUwk=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/KategorieList.js?v=20250830002007" integrity="sha256-XZMjFHdRvubiW4QcO/w5syNcDW5kTzs9lA6sW2Lxzf4=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/KategorieShow.js?v=20250830002007" integrity="sha256-39iXGesscYWfhRYphJTSBpEWCRGJwLlSv7ml1cUkrRs=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/SearchView.js?v=20250830002007" integrity="sha256-cymgSOR3bQRFMlzpN3YB8vVVrQtHU2ROOIziejBVZC0=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/TeilbereichList.js?v=20250830002007" integrity="sha256-6zNQpnIg+xk6loZw5MYOHTnVbjzpkjzrxpytrpTVSSQ=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/views/TeilbereichShow.js?v=20250830002007" integrity="sha256-M8W5I8lSVH/i9Ecndo+yTCsOkbQ0e/KNdfNKToGMsYQ=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Angebot.js?v=20250830002007" integrity="sha256-v7kLQPIYxHQvTir1TKpwQ5j2witVzNRY1Yl19YQku24=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/ApiSync.js?v=20250830002007" integrity="sha256-PfvVU57jxVbs1YDlbSx6F1OtWAuh6BIGXYbnyo0pGGY=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Bereich.js?v=20250830002007" integrity="sha256-OpR00jAx6kL3PZQjpvZoVQbmZKu7txX1kpjEamApIEk=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Eventing.js?v=20250830002007" integrity="sha256-CZ/LZGplCoFVS00Qx/6Tg86btO+l8+S/ruyPjQojwIc=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Attributes.js?v=20250830002007" integrity="sha256-ElgDeqTfKKozozETczSIHNjNXhpj9z/x9wGIKTnlF4Q=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Collection.js?v=20250830002007" integrity="sha256-PAwgkMeqZRqgNZPcRIZX/n7GQP7mz8sqQ01st8HVxHU=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Kategorie.js?v=20250830002007" integrity="sha256-UOxliGXibznGm0gJFMxhaz/SGOBrm79d0XxGMnaS0+w=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/models/Teilbereich.js?v=20250830002007" integrity="sha256-JPhl3V9eK3aCFjkmpxKXOY50XzI/TBgEtzs8we/Z4U8=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/katalog/katalog.js?v=20250830002007" integrity="sha256-NQJ8KFQKaam56cHs3e4La+P73io2RzZYF10WlKtlwv8=" crossorigin="anonymous"></script>
+<script src="https://lfb.nrw.de/js/anfrage/libs/helperHTML.js?v=20250830002007" integrity="sha256-LsiF9L2bWB1y4Q5654UN9DJ7gpXlqmVVwYXB+bqXK8g=" crossorigin="anonymous"></script>
+    <script src="https://lfb.nrw.de/lib/DOMPurify/purify.min.js?v=20250830002007" integrity="sha256-xN8q1ydyA5ZcbXv28e7ktKTFltREJgw86Nu9DbCwMp8=" crossorigin="anonymous"></script>
+    <title>Fort- und Weiterbildung für das Schulpersonal in der Bezirksregierung Arnsberg</title>
+</head>
+<body>
+
+<header style="margin-top: 3rem;">
+    <div class="container" style="padding: 0px;">
+        <div class="float-end container">
+            <div class="float-end" >
+                <p>
+                    <img id="brLogo" src="/img/_PROJEKT/NRW.png" alt="Logo: Wappen von NRW" class="_HTML_img_NRW">
+                    <span class="float-start px-3" id="brLogoText">Bezirksregierung<br>Arnsberg</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div style="clear: right">
+            <h1 class="navbar-brand d-flex align-items-center">
+                Fort- und Weiterbildung für das Schulpersonal
+            </h1>
+        </div>
+        <div style="height:5vw;background-color: #1c7db9"></div>
+            </div> <!-- ToDoKS -->
+</header>
+
+<main>
+
+    <div class="bg-light container">
+        <div class="row py-lg-2">
+            <div class="col-lg-1 mx-auto"></div>
+            <div class="col-lg-11 mx-auto">
+                <p class="lead"><b>Herzlich willkommen</b> im Fortbildungskatalog der BR Arnsberg.</p>
+                <p class="lead">Sie können durch Angabe der Schulform die Auswahl einschränken und in unserem Angebot blättern.</p>
+                <p class="lead">Mit der Eingabe von Suchbegriffen im Suchfeld (z.B. Thema, Fach, Schulform, Fortbildungsgruppe, Kursnummer o.Ä.) erstellen Sie eine Angebotsübersicht.</p>
+            </div>
+        </div>
+
+        <div class="row py-3 align-items-center">
+            <div class="col-lg-1 d-none d-lg-block"></div>
+
+            <div class="col-sm-8 col-lg-6">
+                <label for="inputSearchField" class="form-label visually-hidden">Suchfeld</label>
+                <input type="text" id="inputSearchField" class="form-control" placeholder="Suchbegriff eingeben">
+            </div>
+
+            <div class="col-sm-4 col-lg-3 pt-3 pt-sm-0 offset-lg-1 text-end">
+                <a role="button" href="#" class="btn btn-primary  m-0" id="search" style="width: 100%;">Suche</a>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-block"></div>
+        </div>
+
+        <div class="row py-3 align-items-center">
+            <div class="col-lg-1 d-none d-lg-block"></div>
+
+            <div class="col-sm-12 col-lg-6 d-flex flex-wrap align-items-center">
+                <label for="filter_sf" id="id_schulform_label" class="form-label me-2 mb-2 mb-sm-0" style="white-space: nowrap;">Schulform:</label>
+                <select name="filter_sf" id="filter_sf" class="form-select flex-grow-1" aria-labelledby="id_schulform_label" onchange="katalog.selectBoxChanged(this)">
+                    <option value="0">Alle</option>
+                                        <option value="2">Grundschule</option>
+                                        <option value="4">Hauptschule</option>
+                                        <option value="6">Volksschule</option>
+                                        <option value="8">Förderschule</option>
+                                        <option value="10">Realschule</option>
+                                        <option value="13">Primus (Schulversuch)</option>
+                                        <option value="14">Sekundarschule</option>
+                                        <option value="15">Gesamtschule</option>
+                                        <option value="16">Gemeinschaftsschule (Schulversuch)</option>
+                                        <option value="17">Waldorfschule</option>
+                                        <option value="18">Hiberniaschule</option>
+                                        <option value="19">Waldorfschule-Erziehungshilfe</option>
+                                        <option value="20">Gymnasium</option>
+                                        <option value="25">Weiterbildungskolleg</option>
+                                        <option value="30">Berufskolleg</option>
+                                        <option value="81">Schulischer Lernort</option>
+                                        <option value="83">Klinikschule</option>
+                                        <option value="85">Förderschule im Bereich der Realschule</option>
+                                        <option value="87">Förderschule im Bereich des Gymnasiums</option>
+                                        <option value="88">Förderschule im Bereich Berufskolleg</option>
+                                        <option value="901">Abendrealschule</option>
+                                    </select>
+            </div>
+
+            <div class="col-sm-12 col-lg-3 offset-lg-1 d-flex align-items-center justify-content-center justify-content-lg-end mt-3 mt-lg-0">
+                <div class="form-check d-flex align-items-center" style="min-width: 200px;">
+                    <input class="form-check-input" type="checkbox" id="checkboxTermine" name="checkboxTermine" onchange="katalog.selectBoxChanged(this)">
+                    <label class="form-check-label ms-2" for="checkboxTermine" style="font-size: 0.75em; line-height: 1.2;">
+                        Aktuell buchbare Angebote
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-lg-2 d-none d-lg-block"></div>
+        </div>
+    </div>
+
+
+
+
+    <section aria-label="Suchergebnisse" class="album bg-light container" id="searchResultContainer">
+        <p class="kategorie" id="suchergebnisse">
+            <b>Suchergebnisse</b>
+        </p>
+        <ul class="album bg-light container" id="searchResults">
+        </ul>
+    </section>
+
+    <section aria-label="Katalog">
+    <ul class="album bg-light container" id="kategories">
+    </ul>
+    </section>
+
+    <section aria-label="Hinweise" class="album container" id="hinweise">
+                <p style="color: #000000">Für Anmeldungen zu Fortbildungsveranstaltungen ist die Einhaltung des <b>Dienstwegs</b> erforderlich. Für weitere Informationen beachten Sie bitte ...<br/><ul><li>Hinweise für <u><a href="https://lfb.nrw.de/pdf/dienstweg_anmeldende.pdf">Anmeldende</a></u><br/></li><li>Hinweise für <u><a href="https://lfb.nrw.de/pdf/dienstweg_schulleitungen.pdf">Schulleitungen</a></u><br/></li><li><u><a href="https://lfb.nrw.de/pdf/dienstweg_faq.pdf">FAQ zum Dienstweg</a></u><u></u><br/></li></ul><u></u><br/><u></u></p>
+                        <p style="color: #000000">Wichtige Informationen für an Zertifikatskursen interessierte Lehrkräfte finden sich in den <a href="https://www.bra.nrw.de/-3577">Hinweisen zu Zertifikatskursen</a>. Allgemeine Hinweise zur Durchführung der Lehrkräftefortbildung in der Bezirksregierung Arnsberg finden Sie unter unseren <a href="https://www.bra.nrw.de/bildung-schule/lehrerinnenbildung/fortbildung/faq-durchfuehrung-von-lehrkraeftefortbildungen-im-regierungsbezirk-arnsberg">FAQ</a> (häufig gestellte Fragen).</p>
+            </section>
+
+</main>
+
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-start mb-1">
+            <a class="footer_link" href="https://lfb.nrw.de/impressum">Impressum</a>
+        </p>
+        <p class="float-start mb-1 px-3">  ·  </p>
+        <p class="float-start mb-1">
+            <a class="footer_link" href="https://lfb.nrw.de/datenschutz">Datenschutzerklärung</a>
+        </p>
+        <p class="float-start mb-1 px-3">  ·  </p>
+        <p class="float-start mb-1">
+            <a class="footer_link" href="https://www.lfb.nrw.de/barrierefreiheit">Barrierefreiheit</a>
+        </p>
+        <p class="float-end mb-1">
+            <a class="footer_link" href="#">Nach oben</a>
+        </p>
+    </div>
+</footer>
+<script>window.onload=katalog.main();</script>
+</body>
+</html>
