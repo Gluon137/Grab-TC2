@@ -1,0 +1,12 @@
+Title: Austausch Demokratiebildung
+
+Description: TaskCards https://t1p.de/y2bfz
+
+Images:
+  - https://www.taskcards.de/icons/preview.png
+
+Files:
+  - TaskCards
+https://t1p.de/y2bfz: https://t1p.de/y2bfz
+  - 231115-SL_DB_Demokratieinput.pptx: 
+  - 231115-SL_DB_Demokratieinput.pptx: 

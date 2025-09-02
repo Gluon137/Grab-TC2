@@ -1,9 +1,9 @@
-Title: Arbeitsergebnis zGruppe 3
+Title: Ressourcen Schulsozialarbeit (Ludwig)
 
-Description: 2023_1121_Unterrichtsrichtlinien_KI_DB_GE.docx
-28 KB
+Description: Dass Stellen für Schulsozialarbeit an die Schulpsychologischen Beratungsstellen gegangen sind, ist nur bedingt hilfreich. 
+Unter welchen Bedingungen können diese Stellen (kommunal oder über eine Lehrerstelle) an die Schulen kommen?
+Wird es zu diesem Arbeitsbereich eine Handreichung von der Bezirksregierung geben?
 
 Images:
 
 Files:
-  - 2023_1121_Unterrichtsrichtlinien_KI_DB_GE.docx: 

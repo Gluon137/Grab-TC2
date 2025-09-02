@@ -22,15 +22,17 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class TaskCardDownloader:
-    def __init__(self, url, download_folder="taskcard_download"):
+    def __init__(self, url, download_folder="taskcard_download", headless=True):
         self.url = url
         self.download_folder = download_folder
+        self.headless = headless
         self.driver = None
         
     def setup_driver(self):
         """Setup Chrome WebDriver with options"""
         chrome_options = Options()
-        chrome_options.add_argument("--headless")  # Run in background
+        if self.headless:
+            chrome_options.add_argument("--headless")  # Run in background
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--window-size=1920,1080")
@@ -442,6 +444,37 @@ class TaskCardDownloader:
             logger.error(f"Failed to download {url}: {e}")
             return False
     
+    def export_as_json(self, cards_data):
+        """Export all card data as consolidated JSON"""
+        # Create consolidated JSON with all cards
+        consolidated_data = {
+            "export_info": {
+                "url": self.url,
+                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "total_cards": len(cards_data)
+            },
+            "cards": []
+        }
+        
+        for card in cards_data:
+            # Create a serializable copy of card data
+            card_for_json = {
+                "id": card["id"],
+                "title": card["title"],
+                "description": card["description"],
+                "images": card["images"],
+                "files": [{"url": f["url"], "text": f["text"], "type": f.get("type", "link")} for f in card["files"]],
+                "html_content": card["html_content"]
+            }
+            consolidated_data["cards"].append(card_for_json)
+        
+        # Save consolidated JSON
+        json_filepath = os.path.join(self.download_folder, "taskcard_export.json")
+        with open(json_filepath, 'w', encoding='utf-8') as f:
+            json.dump(consolidated_data, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Consolidated JSON export saved: {json_filepath}")
+
     def save_card_content(self, cards_data):
         """Save card content and download files"""
         for card in cards_data:
@@ -611,6 +644,10 @@ class TaskCardDownloader:
                 logger.warning("No cards found - the page structure might be different than expected")
                 # Save the page source for manual inspection
                 return False
+            
+            # Export consolidated JSON
+            logger.info("Exporting consolidated JSON")
+            self.export_as_json(cards_data)
             
             # Save card content and download files
             logger.info(f"Processing {len(cards_data)} cards")

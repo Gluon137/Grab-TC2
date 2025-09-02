@@ -1,9 +1,28 @@
-Title: Tagungsort
+Title: Tagesordnung
 
-Description: Sport-Centrum Kaiserau (FLVW)
-Jakob-Koenen-Str. 2
-59174 Kamen
-Tel.: 02307 371240
+Description: 1. Begrüßung
+2. Informationen aus dem MSB
+    + Gesetz zur Übermittlung von Schülerinnen- und Schülerdaten am Übergang von der
+    Schule in den Beruf
+    + Überarbeitung der APOGOST
+    + Lernen und Lehren in der digitalen Welt
+    + Programm "Startchancen
+3. Neu: Fachleistungsdifferenzierung ab dem 9. Jg.
+4. Schulsozialarbeit
+5. Teilzeitanträge (voraussetzungslose Teilzeit)
+6. Gemeinsames Lernen- Verteilung der SuS mit sonderpädagogischem Unterstützungsbedarf
+7. Sozialindex ab dem Schuljahr 2024
+8. Integration
+    + Herkunftssprachlicher Unterricht
+    + Stellen/Ressourcen
+    + Alphabetisierung
+9. Schuljahr 2023- 24; zweckgebundene Rundungsgewinne
+10.Schuljahr 2024/25: Aufnahme von Schüler/Schülerinnen aus der Erstförderung
+    + in Jg. 5
+    +Jg. 6-10
+11. Verschiedenes
+    + „ Mangelfachliste“ ?
+    + …….
 
 Images:
 

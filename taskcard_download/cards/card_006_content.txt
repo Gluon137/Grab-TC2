@@ -1,8 +1,7 @@
-Title: PPT Tagung Gesamtschulen
+Title: Verteilung der GoIn-Schüler*innen (Ludwig)
 
-Description: PDF • 2.6 MB Präsentation-DB_GE 2023.pdf
+Description: Um die Schulform der Gesamtschule zu stützen müssen Integrationsschüler*innen in der Erstförderung auf alle Schulformen verteilt werden. Das Gymnasium und die Realschule müssen auch eine relevante Option sein. Das Ziel kann nicht die maximale Klassengröße sein, besondere Bedingungen einzelner Lerngruppen sollten berücksichtigt werden.
 
 Images:
 
 Files:
-  - Präsentation-DB_GE 2023.pdf: 

@@ -1,9 +1,7 @@
-Title: Zeiten und Tagungsstruktur
+Title: Ressourcen für Alphabetisierung
 
-Description: PDF • 433 KB Tagungsstruktur_DB_final_Teilnehmende.pdf
+Description: 
 
 Images:
 
 Files:
-  - Tagungsstruktur_DB_final_Teilnehmende.pdf: 
-  - Tagungsstruktur_DB_final_Teilnehmende.pdf: 

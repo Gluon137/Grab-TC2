@@ -1,0 +1,9 @@
+Title: KI-generiertes Feedback
+
+Description: Dieses Feedback soll den möglichen vielfältigen Einsatz von KI-generierten Texten verdeutlichen. Individuelle Rückmeldungen aus den Workshops an die einzelnen Moderieren sind ebenfalls erfolgt.
+
+Images:
+
+Files:
+  - KI-Feedback.pptx: 
+  - KI-Feedback.pptx: 

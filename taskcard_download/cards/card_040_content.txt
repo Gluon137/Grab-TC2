@@ -1,0 +1,16 @@
+Title: KI / ChatGPT
+
+Description: Ich würde mir wünschen, dass nicht jede Schule hierzu eigene Verfahrenswege entwickeln muss, sondern dass dies seitens des MSB landesweit geregelt wird.
+Begründung: Die Anforderungen sind doch für alle Schulen weitestgehend identisch. Außerdem besteht seitens der Schulen sicherlich eine geringere Beurteilungskompetenz als beim Schulministerium, das hierzu z. auf wissenschaftliche Wissensressourcen zurückgreifen kann.
+Kurzum: Ich würde mir bei diesem Thema mehr Führung wünschen.
+Michael Münzer, SK Ennepetal
+
+Auskunft auf der Seite des MSB:
+
+https://www.schulministerium.nrw/23022023-handlungsleitfaden-zum-umgang-mit-textgenerierenden-ki-anwendungen
+Zusätzlich zum Handlungsleitfaden hat die QUA-LiS NRW ein Vertiefungsangebot in Form eines Moodle-Kurses erstellt. Dieser bietet die Möglichkeit, sich intensiver mit textgenerierenden KI-Anwendungen auseinanderzusetzen. Neben weiterführenden Informationen und Verweisen – z. B. auf unterschiedliche KI-Anwendungen – beinhaltet der Moodle-Kurs zudem Unterrichtsbeispiele für verschiedenen Fächer und Schulstufen, welche Lehrkräfte, aber auch Seminarausbilderinnen und Seminarausbilder bei der Thematisierung von textbasierter KI im Unterricht unterstützen sollen. Der Moodle-Kurs ist frei zugänglich, es ist keine Registrierung notwendig.
+
+Images:
+
+Files:
+  - Moodle-Kurses: https://url.nrw/textgenerierendeKI

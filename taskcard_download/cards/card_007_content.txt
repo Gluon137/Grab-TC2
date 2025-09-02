@@ -1,28 +1,7 @@
-Title: Impulsvortrag
+Title: Anschlussförderung
 
-Description: https://url.nrw/fobiki  Basisinput (Prezi)028
-von sebastian.knauf@kt.nrw.de und thomas.rensinghoff@kt.nrw.de
-
-
-Links für die Workshops:
-https://url.nrw/fobiki1 (Taskcards - Überblick, Vertiefung, Workshopmaterial)
-https://url.nrw/fobiki2 (Textvorlagen für das "Prompting")
-
-Das Dokument "Erstellung von Unterrichtsrichtlinien für KI" befindet sich >hier< oder auch auf Taskcards (s. o., Workshopmaterial Spalte 5)
-
-
-Eine Angebotsübersicht der Fortbildungsgruppe DTS finden Sie neben dem Fortbildungskatalog gesammelt unter https://url.nrw/dts
+Description: Nach Auslauf der zweijährigen Erstförderung sind die Sprachkompetenzen insbesondere der ukrainischen Kinder leider nicht ausreichend, um sie in den Regelunterricht einzugliedern. Gibt es konkrete Pläne mit entsprechenden Ressourcen für die erforderliche Anschlussförderung? (Kloer)
 
 Images:
-  - https://0701.static.prezi.com/preview/v2/sr4l4ej53ddvzq4pxw4q5ok6th6jc3sachvcdoaizecfr3dnitcq_3_0.png
 
 Files:
-  - https://url.nrw/fobiki: https://url.nrw/fobiki
-  - https://url.nrw/fobiki1: https://url.nrw/fobiki1
-  - https://url.nrw/fobiki2: https://url.nrw/fobiki2
-  - hier: https://docs.google.com/document/d/1XCrvdoWv7utNR1fMxAko26l7Z8fXUCQsTKQI3rXYEA0/edit?usp=sharing
-  - Fortbildungskatalog: https://lfb.nrw.de/bra/20532
-  - : https://
-  - https://url.nrw/dts: https://url.nrw/dts
-  - KI in Schule
-https://url.nrw/fobiki: https://url.nrw/fobiki
